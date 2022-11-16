@@ -1,29 +1,33 @@
-Описание проекта:
-    В проекте представлена социальная сеть Yatube с возможностью
-создавать публикациии и делиться ими с другими пользователя. Польза огромная!
+# Yatube API
+В проекте представлен API к социальной сети Yatube.
 
------------------------------------------------------------------------------------
-
-Как запустить проект:
-
+## Как запустить проект (для Windows):
 Клонировать репозиторий и перейти в него в командной строке:
-git clone https://github.com/Senkdar/api_final_yatube
-cd api_final_yatube
 
+```bash
+  git clone https://github.com/Senkdar/api_final_yatube
+  
+  cd api_yamdb
+```
+ 
 Cоздать и активировать виртуальное окружение:
+
+```bash
 python -m venv venv
-source venv/Scripts/activate
 
+source Venv/Scripts/activate
+
+```
 Установить зависимости из файла requirements.txt:
-python -m pip install --upgrade pip
+```bash
 pip install -r requirements.txt
-
+```
 Выполнить миграции:
+```bash
 python manage.py migrate
-
+```
 Запустить проект:
-python manage.py runserver
-
------------------------------------------------------------------------------------
-
+```bash
+python manage.py runserver   
+```
 
