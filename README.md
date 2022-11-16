@@ -11,11 +11,11 @@ git clone https://github.com/Senkdar/api_final_yatube
 cd api_final_yatube
 
 Cоздать и активировать виртуальное окружение:
-python -m venv env
+python -m venv venv
 source venv/Scripts/activate
 
 Установить зависимости из файла requirements.txt:
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 Выполнить миграции:
