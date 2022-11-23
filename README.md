@@ -5,9 +5,9 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```bash
-  git clone https://github.com/Senkdar/api_final_yatube
+  git clone https://github.com/Senkdar/API_YaTube
   
-  cd api_yamdb
+  cd API_YaTube
 ```
  
 Cоздать и активировать виртуальное окружение:
